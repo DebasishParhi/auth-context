@@ -10,8 +10,7 @@ export const Users = () => {
     useEffect(()=>{
           axios.get("https://reqres.in/api/users").then(({data})=>{
             setGetdata(data.data)
-            
-            // console.log(data.data)
+           
          })
 
        

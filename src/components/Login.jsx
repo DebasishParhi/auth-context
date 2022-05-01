@@ -56,7 +56,7 @@ export const Login = () => {
     <div style={{
       textAlign: "center",
       width: "200px",
-      margin: "auto"
+      margin: "auto"  
     }}>
       <form action="" onSubmit={(e) => {
         e.preventDefault()
@@ -77,9 +77,9 @@ export const Login = () => {
 
       }} >
         <img style={{
-          width: "100px",
-          height: "100px",
-          borderRadius: "50px",
+          width: "120px",
+          height: "120px",
+          borderRadius: "40px",
           cursor: "pointer",
 
         }} src="https://www.w3schools.com/howto/img_avatar.png" alt="" />
